@@ -173,21 +173,22 @@ void kirimKeWebsite() {
 
 ------------------------------------------------------------------------
 
-## 🌐 **Teknologi yang Digunakan**
+##  **Teknologi yang Digunakan**
 
--   PHP 8 Backend\
--   MySQL Database\
--   ESP32 (IoT Client)\
--   Flask API (Python Machine Learning Server)\
--   Random Forest Regressor\
--   AJAX Realtime Update\
+-   PHP 8 Backend
+-   MySQL Database
+-   ESP32 (IoT Client)
+-   Flask API (Python Machine Learning Server)
+-   Random Forest Regressor
+-   AJAX Realtime Update
 -   HTML + CSS + JS Frontend
+-   Render.com
 
 ------------------------------------------------------------------------
 
-## ❤️ **Tujuan Proyek**
+##  **Tujuan Proyek**
 
--   Mengukur dan mengoptimalkan pakan ikan\
--   Mengurangi pemborosan pakan\
--   Menjaga kesehatan ikan melalui feeding yang tepat\
+-   Mengukur dan mengoptimalkan pakan ikan
+-   Mengurangi pemborosan pakan
+-   Menjaga kesehatan ikan melalui feeding yang tepat
 -   Mengotomatisasi sistem budidaya agar lebih efisien
