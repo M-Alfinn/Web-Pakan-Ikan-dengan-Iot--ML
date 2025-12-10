@@ -1,4 +1,4 @@
-# 📘 **README.md --- Sistem Monitoring & Prediksi Pakan Ikan Berbasis IoT + Machine Learning**
+# 📘 ** Sistem Monitoring & Prediksi Pakan Ikan Berbasis IoT + Machine Learning**
 
 # 🐟 **Smart Fish Feeding System -- IoT & Machine Learning**
 
