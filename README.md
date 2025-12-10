@@ -1,4 +1,4 @@
-# 📘 ** Sistem Monitoring & Prediksi Pakan Ikan Berbasis IoT + Machine Learning**
+# 📘 Sistem Monitoring & Prediksi Pakan Ikan Berbasis IoT + Machine Learning
 
 # 🐟 **Smart Fish Feeding System -- IoT & Machine Learning**
 
@@ -69,17 +69,21 @@ UI minimalis, responsif, dan informatif: - Grafik suhu realtime\
     │   └── sidebar.php        # Sidebar navigasi
 
     ├── api/
-    │   ├── update-sensor.php      # Endpoint data sensor (ESP32 → Web)
-    │   ├── update-ml.php          # Input prediksi ML (API → Web)
-    │   ├── log-activity.php       # Mencatat log feeding
-    │   ├── get-dashboard.php      # Data dashboard
-    │   ├── get-logs.php           # Data log aktivitas
-    │   ├── export-logs.php        # Export CSV
-    │   ├── control-feed.php       # Kontrol servo manual
-    │   ├── update-mode.php        # Ganti mode (manual/auto)
-    │   ├── update-schedule.php    # Update jadwal manual
-    │   ├── get-ml-history.php     # Riwayat ML
-    │   └── get-temp-chart.php     # Grafik suhu
+    │   ├── auth.php              # Autentikasi API
+    │   ├── database.php          # Koneksi database untuk API
+    │   ├── update-sensor.php     # Endpoint data sensor (ESP32 → Web)
+    │   ├── update-ml.php         # Input prediksi ML (Flask API → Web)
+    │   ├── predict-ml.php        # (Jika masih digunakan) Memanggil model ML
+    │   ├── log-activity.php      # Mencatat log feeding
+    │   ├── get-dashboard.php     # Data untuk dashboard
+    │   ├── get-logs.php          # Data log aktivitas
+    │   ├── export-logs.php       # Export CSV
+    │   ├── control-feed.php      # Kontrol servo manual
+    │   ├── update-mode.php       # Mengubah mode (auto/manual)
+    │   ├── update-schedule.php   # Update jadwal manual
+    │   ├── get-ml-history.php    # Riwayat prediksi ML
+    │   └── get-temp-chart.php    # Data grafik suhu
+
 
     ├── assets/
     │   ├── css/
